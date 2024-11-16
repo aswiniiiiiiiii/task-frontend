@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Land from '../assets/Landimg.png'
+import land from '../assets/Landimg.png'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
               <button className='btn btn-primary '><Link style={{textDecoration:'none',color:'white'}} to={'/login'}>Sign In</Link></button>
             </div>
             <div className="col-lg-6 ">
-                <img width={'600px'} className='img-fluid' src={Land} alt="" />
+                <img width={'600px'} className='img-fluid' src={land} alt="" />
             </div>
         </div>
       </div>
