@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import land from '../assets/Landimg.png'
+import land from '/LandImg.png'
 
 const Home = () => {
   return (
